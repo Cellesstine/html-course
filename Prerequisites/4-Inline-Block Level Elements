@@ -1,0 +1,8 @@
+                                                                                                                                          Inline / Block Level Elements  
+   HTML Elements : An HTML element is defined by a start tag, some content, and an end tag.
+	   Categories: In HTML, elements are categorized as inline-level or block-level based on how they are rendered in the document flow : 
+	        1 - Inline-Level : These elements do not start on a new line and only take up as much width as necessary, such as : <span>, <a>, <strong>, <em>, <img>, <label>, <br>, <code>. and they Can only contain inline elements.
+	        
+	        2 - Block-Level Elements : These elements start on a new line and take up the full width of their container by default, such as : <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <section>, <article>, <header>, <footer>, <table>. they can contain either block or inline elements.
+	        
+	   Nested Elements : HTML elements can be nested, means that elements can contain other elements.

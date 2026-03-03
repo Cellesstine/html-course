@@ -1,0 +1,37 @@
+                                                                                                                                                 Text Structure Tags 
+   I - Meaning : Introduces the main topic or idea.
+   II - Different text structure tags : 
+          1. Headings == 
+		 -  Headings : (<h1> to <h6>) with <h1> being the most important and <h6> the least. ( they're automatically written bold ) == <h1> Heading </h1>.
+		 
+		 
+	  2. Text Content Tags == 
+	  	- Paragraphs : Defines a paragraph (<p>) == <p> Paragraph </p>.
+	  	- Line Break : (<br>). {break only one line, for multiple lines use <br*num>
+		- Horizontal rule : (<hr>) Create a horizontal line in a web page (---------).
+		- Quotation : (<blockquote>) Used for long quotations == <blockquote> Quote </blockquote>.
+		- Abbrivation : <abbr> content </abbr>. with the attribute title=for full explanation. Ex : <abbr title="explanation"> abbrivation </abbr>
+		- Address : <address> address, specific location.. </address> {it emphasize by default}
+		- Inline quotation : <q> Text </q>
+		- Citation (book, article..) : <cite> text </text>
+		- Date/time : <time> content </text> (used with datetime attribute)
+		- Highlighted/marked text : <mark> text </mark>
+		- Preformatted text : <pre>  Text </pre>
+		- Variable – used to represent variables in math/code expressions - : <var> 
+		- Word break opportunity – lets the browser break long words at that spot if needed : <wbr>
+		- Computer code : (<code>) Displays inline code in monospace font, Used inside <pre>
+		- Sample output from a program	Represents the result/output of code : (<samp>)
+		- Deleted content : (<del>)semantic strikethrough		
+		- Inserted content : (<ins>) semantic underline
+		
+		
+        3. Text formatting == 
+        	    - Bold : (<strong> or <b>) == <b> Text </b>.
+      	            - Italic : (<em> or <i>) == <em> Text </em>
+        	    - Underline == <u> Text </u>
+        	    - Strikethrough : <s>
+        	    - Smaller text : <small> text </small>
+        	    - Subscript : <sub> text </sub>
+        	    - Superscript : <sup> text </sub>
+        	    - Defines font size, color.. : <font>
+        	    - center text : Center text

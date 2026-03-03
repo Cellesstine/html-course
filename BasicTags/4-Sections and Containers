@@ -1,0 +1,19 @@
+                                                                                                                                                 Sections & Containers 
+   I - Meaning : Sections divide your page into meaningful parts.
+   II - Section : 
+       1 - Section : (<section>) Represents a thematic grouping of content.       
+       2 - Header : (<header>)  Marks a header for a section or page. { These define introductory 
+       3 - Footer : (<footer>) Marks a footer for a section or page. and concluding content for a section or the page } 
+       4 - Article : (<article>)  Represents self-contained content, like a blog post.
+       5 - Aside : (<aside>) Contains content related to the main content (sidebars).
+       6 - Main : (<main>) Represents the main content of the document.
+       7 - Sub content : (<small>) For sub content ( makes a text smaller ).
+       8 - figure : (<figure>) Self-contained media used with images, diagrams..
+       9 - figure caption : (<figcaption>) Caption for <figure>.
+       10 - details : (<detail>) Creates an expandable/collapsible content box
+       11 - summary : (<summary>) The visible label or title of the <details> box. Clickable. Must be the first child of <details>
+       
+   III - Containers :  refer to elements used to structure content.
+       1 - Div : (<div>) A generic container used for grouping content and applying styles or JavaScript.
+       2 - Navigation : (<nav>) Defines a navigation section for links.
+       3 - Styling : (<span>) used for styling purpose.

@@ -1,0 +1,80 @@
+                                                                                                                                                       Attributes 
+   I - Meaning : provide additional information about HTML elements, They are always specified in the opening tag and typically come in a name-value pair.
+   II - Attributes : 
+       1 - Anchor Attributes : (<a>) Creates a hyperlink ( add links to your web page ) 
+                           _ href (Hypertext Reference ) : Specifies the URL of the link.
+                                   Ex : <a href = "https://google.com" > Click here </a>. {doesn't need to be a web page
+						you can link it to a file you created yourself and paste the path to that file}
+					-you can also add internal references by giving an id to a certain section { 
+					<section id="something_related"> content </section> and target the section id in a
+					navigation erea using <nav> 
+						<a href="#id"> content </a>
+								</nav>
+					you can use it with <ul> or <ol> for more defined structure.
+					if <a href="#"> content </a> is specified : means getting back to the navigation
+					menu, if <a href="#"></a> it reload the page (back to top)	
+					{you can also link an email address or a telephone num }
+		
+                           _ target : Defines where to open the linked document. Common values : 
+                                 self (default) : Opens in the same tab or window.
+                                 blank : Opens in a new tab or window.
+                                 parent : Opens in the parent frame.
+                                 top : Opens in the full body of the window.
+                                 Ex : <a href = "https://www.example.com" target = "_blank" > Open in New Tab </a>
+              
+                           _ rel : Specifies the relationship between the current document and the linked document. Common values :      
+                                 nofollow : Tells search engines not to follow the link.
+                                 noopener : Prevents the new page from accessing window.opener.
+                                 noreferrer : Prevents the browser from sending the referrer header.
+                                 Ex : <a href = "https://www.example.com" rel = "nofollow" > No Follow </a>
+                                 
+                           - download : Indicates that the link is for downloading a file rather than navigating to it.   
+                                 Ex : <a href = "file.pdf" download > Download PDF </a>
+                           _ type : Specifies the MIME type of the linked resource.      
+                           _ title : Provides additional information about the link, often shown as a tooltip.
+                           _ accesskey : Specifies a shortcut key to activate/focus the link.
+                           
+       2 - Media Attributes : 
+           _ Creating an image : (<img>). uses : the source file (src), alternative text (alt), width, and height. can also use a
+								title, width, height, loading. can be used inside a figure element in order
+								to add some certain things related to the img. <figure> <img> <figcaption> cap </figcaption> </figure>
+                	Used with : 
+			   - src :  Specifies the source file.
+			    - alt : Alternative text for an image (Description).
+			    - title : a discription for the image when you hover over it.
+			    - width & height="value"; 
+			    - loading : when to load the image in the browser, it has 2 possible values; {eager is default
+					 & lazy : the browser will only load the image when it's about to show (for performance adv)
+         _ Creating a video : (<video>) it has a closing tag
+         	Used with : 
+         		- src : Path to the video file
+			- controls : Shows play/pause, volume, etc.
+			- autoplay : Plays automatically (requires muted in modern browsers)
+			- muted : Starts muted
+			- loop : Repeats video when done
+			- poster : Image displayed before video starts
+			- width / height : Size of the video
+			- type : formats
+	_ Creating an audio : (<audio>).
+		Used with : 
+			- src	
+			- controls : Shows default audio player controls
+			- autoplay : Starts playing automatically (muted may be required)
+			- loop : Repeats the audio when finished
+			- muted : Starts muted
+			- preload : auto / metadata / none	
+	- track : <track> : Used to add subtitles/captions to a <video>
+		Used with : 
+			- kind : subtitles, captions, descriptions, chapters, metadata
+	- Link : link external resources to the web page
+		used with (rel, href)
+	
+   III - Note : 
+      * all tags can have attribute.
+      * Provide information about element.
+      * Placed within the start tag.
+      * Key/Value Pairs.
+      * Syntax : 
+          <tag-name attribute-name="attribute-value" > content </tag-name> 
+               
+                                   

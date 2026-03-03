@@ -1,0 +1,19 @@
+                                                                                                                                                     Meta Data Tags
+                                                                                                                                                     
+   I - Meaning : Metadata is data about data ( It provides information that describes, explains, or gives context to other data ), meta data tags are often used to provide additional information about a document, web page, or other types of content (  help with SEO (Search Engine Optimization)) . used in <head>.
+   
+   II - HTML Metadata Tags for Websites : 
+      1 - Title : Sets the title of the document == <title> content </title>.
+      2 - General Meta Tags : 
+          <meta name= "author" content ="Oussama"> ( Author of the page ).
+          <meta name= "description" content ="An overview of metadata tags for websites."> ( Page description ).
+          <meta name= "keywords" content ="metadata, SEO, HTML, web development"> ( Keywords for search engines ).
+	  <meta name= "icon" content="icon/path" type="image,icon..">
+      3 - Open Graph Tags (for Social Media Sharing) : 
+           <meta property="og:title" content="Metadata Tags Guide">
+           <meta property="og:description" content="Learn about different metadata tags for websites.">
+           <meta property="og:image" content="https://example.com/image.jpg">
+           <meta property="og:url" content="https://example.com/metadata-guide">
+           <meta property="og:type" content="website">
+      4 - Robot tag : 
+           <meta name="robots" content="index, follow"> ( Instructions for search engine crawlers )

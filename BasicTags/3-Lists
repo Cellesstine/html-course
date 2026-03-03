@@ -1,0 +1,20 @@
+                                                                                                                                                             Lists
+   I - Lists Tags : 
+       1 - Unordered Lists : (<ul>).
+       2 - Ordered Lists : (<ol>).
+       		attribute 							values
+       		type : Type of Numbering 				"1" (default), "a", "A", "i", "I"
+       		start : Start from a specific number
+       		reversed: Reverses the numbering
+       		value : specific value for an item
+       3 - Description Lists : (<dl>).
+       4 - List Item : (<li>).
+       
+   II - Example : same as <ol>
+     <ul>
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+     </ul>
+	Ex.2 : description list {it has }
+ different types of items instead of one : <di> description item, <dt> (description term) & <dd> (description detail)

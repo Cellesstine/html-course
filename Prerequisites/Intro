@@ -1,0 +1,18 @@
+                                                                    HTML ( Hyper Text Markup Language ).
+                                                                                                                                 
+   Standard language for creating & structuring content on webpage interfaces {define the structure, layout, content of page}
+
+	   Creating an HTML file : 
+	      * File must end with (.html) extension.
+	      * Runs in a web browser.
+	      
+	   Notess == 
+	       * HTML describes the structure of a Web page.
+	       * HTML consists of a series of elements.
+	       * HTML elements tell  browsers how to display the content.
+	       * Purpose of a web browser is to read HTML documents & display them correctly.
+	       * The content inside the <body> section will be displayed in a browser. The content inside the <title> element will be shown in the browser's title bar or in the page's tab.
+
+	       * Shortcuts such : ctrl + u ( To see the HTML code in the website ).
+	                                          : Fn + F12 ( some advanced Tabs ).
+	      

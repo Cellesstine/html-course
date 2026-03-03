@@ -1,0 +1,56 @@
+                                                                                                                                                           Tables
+   I - Meaning : are often used to structure data.
+   II - Syntax : 
+       1 - Create a table : (<table>).
+       2 - Table header cell : (<th>).
+       3 - Table Row : (<tr>).
+       4 - Table cell : (<td>).
+       5 - caption : (<caption>)
+       6 - header : (<thead>)
+       7 - body : (<tbody>)
+       8 - footer : (<tfoot>)
+ 
+ III - Building A Table : 
+      <table> 
+      <thead>
+       	<tr>
+       		<th> header1 </th>
+       		<th> header2 </th>
+       		<th> header3 </th>
+       	</tr>
+       	</thead>
+       	<tbody>
+         <tr>
+         	<td> data1 </td> 
+         	<td> data2 </td>
+         </tr>
+         </tbody>
+         <tfoot>
+         	<tr>
+         		<td colspan="value"> footer </td>
+         	</tr>
+      </table>
+    VI - Attributes for tables : 
+    	- collapsing cells : <td colspan="num_of_cells">
+    	- colloapsing rows <td rowspan="num_of_cells">
+ 	ex : 
+ 	 <table> 
+       	<tr>
+       		<th> header1 </th>
+       		<th> header2 </th>
+       		<th> header3 </th>
+       	</tr>
+         <tr>
+         	<td> data1 </td> 
+         	<td> data2 </td>
+         </tr>
+      </table>
+      - scopes : you can add scopes for each heading in the table to tell how its related to the table ( scope="can have 2 values") either : row or col (column) 
+      - width
+      - height
+      - border
+      - align
+      - cellspacing
+      - cellpadding
+      - summary : Description for screen readers
+      - caption

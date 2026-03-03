@@ -1,0 +1,12 @@
+                                                                                                                                           Basic HTML structure 
+
+<!DOCTYPE html> ( Defines the document type and version of HTML (HTML 5 here)).
+   
+        <html> ( Root element that wraps the entire HTML document )
+               <head> 				# Contains metadata about the document {title, character encoding, links to external resources
+                    <title> Page Title </title>
+               </head>
+               <body>
+	               Contains the visible content of the web page.
+               </body>
+        </html> 

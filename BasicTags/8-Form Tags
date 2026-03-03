@@ -1,0 +1,129 @@
+                                                                                                                                                       Forms Tags
+I - Meaning : are used to create forms that allow users to input data. 
+II - Form Tags : 
+    1 - Form : (<form>) This is the container for all form elements ( form block that sends data to a server )
+	      Attributes		values							meaning
+	      action			URL							Where the form data is sent
+	      method			get / post					        How data is sent
+	      target			_blank, _top, _parent, _self				Where to display response
+	      autocomplete		on/off							Browser fills values automatically
+	      novalidate									Disables validation on submit
+	      enctype									        Type of encoding
+	
+    2 - Inputs : (<input>) "s" this tag is used to create various types of input fields, like text boxes, radio buttons, check boxes.
+		1. Attributes		values			meaning
+		type			#TYPES			Type of input
+		name			string			Name of the input
+		value			string		        Default value
+		placeholder		string			Placeholder text
+		required					Field must be filled out
+		readonly					Cannot be changed
+		disabled				        Unusable input
+		checked					        Pre-select checkbox/radio
+		multiple				        Allow multiple files/emails
+		maxlength		number			Max characters allowed
+		minlength		number			Min characters required
+		pattern			regex			Pattern to match
+		size			number			Width in characters
+		autocomplet	        on, off			Autofill option
+		min, max, step	numbers				Range constraints
+		class			string			CSS class
+		id			string			Used to link with <label>
+		list			id of <datalist>	Show suggestions
+		autofocus					Focused on page load (can't be more than a one in a page)
+		form			id of a form		Associates input with form
+		list			id of <datalist>	Show suggestions
+						
+		2. #TYPES		Meaning
+		text		        Single-line input
+		checkbox		Toggle on/off
+		radio			Select one in a group
+		password		Hidden characters
+		email			Validates email
+		tel			Phone number
+		number			Numeric input
+		range			Slider
+		url			Web address
+		search			Search field
+		color			Color picker
+		date			Date selector
+		time			Time selector
+		datetime-local		Local date & time
+		month			Month selector
+		week			Week selector
+		file			Upload files
+		hidden			Invisible data
+		
+	3  - Label : (<label>) This tag is used to define labels for form elements.
+		Attribute		Values			Description
+		for			id of input		Binds label to input
+		form			form id			Associates with a form
+		
+	4 - Button : (<button>) this tag is used to create clickable buttons, often used to submit the form.
+		Attribute				Values						Description
+		type					submit, reset, button				Defines the action
+		disabled, autofocus
+		form, name, value			same as <input>
+	
+	5 - Text area : (<textarea>) This tag is used for multi-line text input
+		Attributes					values		meaning
+		name						string		Name for submission
+		rows						number		Visible lines
+		cols						number		Visible columns	
+		placeholder, required
+		readonly, disabled				same as
+		autofocus form					<input>
+		maxlength, minlength			
+	
+ 6 - Drop down menu : (<select> + <option> + <optgroup>) :
+	- <select> : 
+		Attribute			Values		Description
+		name				string		Field name
+		multiple					Allow multi-select
+		size	number					Visible options
+		required, disabled		same as
+		autofocus, form			<input>	
+	- <option> : 
+		Attribute			Values		Description
+		value				string		Submitted value
+		label				string		Alternative label (rarely used)
+		selected					Preselected option
+		disabled					Grayed out option
+	- <optgroup> : 
+		Attribute			Values		Description
+		label				string		Group label
+		disabled					Disable the group
+	
+	7 - <fieldset> + <legend> : Used for grouping related form elements
+		- <fieldset> : 
+			Attribute			Values		Description
+			form				id		Associates with form
+			name				string		Name (rarely used)
+			disabled					Disables all inside it
+		- <legend> : is used inside <fieldset> as its title
+	
+	8 - Datalist : Show suggestions ( Needs to be linked to an <input> using list="id" )
+		<input list="ID">
+			<datalist id="ID">
+			  <option value="value1">
+			  <option value="value2">
+			  <option value="value3">
+			</datalist>
+	
+	9 - Output : <output> Displays the result of a calculation
+		Attribute	Values		Description
+		for		list of ids	IDs of inputs it depends on
+		form		form id		Binds output to form
+		name		string		Field name
+	
+	10 - <meter> and <progress> : 
+		- <meter> : Displays a known range of values (you must specify all values)
+			Attribute			Values
+			value				current value
+			min, max			value range
+			low, high, optimum		reference points
+		- <progress> : Displays the progress of a task (like file upload)
+		Attribute		Values
+		value			completed value
+		max			total value
+
